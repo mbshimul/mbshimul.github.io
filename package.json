@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./style.css --watch",
+    "start": "npx -y http-server -p 8080"
+  },
   "devDependencies": {
     "tailwindcss": "^3.3.5"
   }
